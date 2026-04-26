@@ -1,0 +1,38 @@
+{
+  "target": {
+    "campgroundName": "חניון לילה חורשת טל",
+    "productUrl": "https://fe.sales.parks.org.il/product-page/20",
+    "checkIn": "2026-05-21",
+    "checkOut": "2026-05-23",
+    "adults": 2,
+    "children": 1,
+    "toddlers": 1
+  },
+  "behavior": {
+    "headless": true,
+    "slowMoMs": 0,
+    "timeoutMs": 45000,
+    "screenshotOnEveryRun": true,
+    "debugHtmlOnEveryRun": true
+  },
+  "availabilitySignals": {
+    "positive": [
+      "הוסף לסל",
+      "לתשלום",
+      "תשלום",
+      "בחר",
+      "זמין",
+      "פנוי",
+      "₪"
+    ],
+    "negative": [
+      "אין זמינות",
+      "אין מקומות",
+      "אזלו המקומות",
+      "מלא",
+      "לא נמצאו",
+      "לא זמין",
+      "Sold out"
+    ]
+  }
+}

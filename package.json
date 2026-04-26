@@ -1,0 +1,13 @@
+{
+  "name": "parks-campground-availability-agent",
+  "version": "1.0.0",
+  "description": "Daily availability checker for Israel Nature and Parks Authority overnight campground bookings",
+  "type": "module",
+  "scripts": {
+    "install-browsers": "playwright install --with-deps chromium",
+    "check": "node monitor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
